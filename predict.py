@@ -3,7 +3,9 @@ Title Image Classifier- Prediction (Author: Jannis Müller)
 
 Script for reading in an image and a checkpoint then prints the most likely image class and it's associated probability
 
-With the help of comman line arguments, the user of this script will be able chose the image for the prediction (file path), the top K classes for associated probabilities, the learning rate, the epochs for the training and if the user want to use the GPU for the calculations
+With the help of comman line arguments, the user of this script will be able chose the image for the prediction (file path),
+the top K classes for associated probabilities, the learning rate, the epochs for the training
+and if the user want to use the GPU for the calculations
 
 example comand line: python predict.py --image_path flowers/test/1/image_06743.jpg --topk 5 --categories_json_file cat_to_name.json
 '''
