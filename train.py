@@ -3,7 +3,8 @@ Title Image Classifier- Training (Author: Jannis Müller)
 
 Script for training a new neural network on a dataset of images and saving the model to a checkpoint
 
-With the help of command line arguments, the user will be able to define the architecture for the model, the amount of hidden layer , the learning rate, the epochs for the training and if the user want to use the GPU for the training and testing.
+With the help of command line arguments, the user will be able to define the architecture for the model, the amount of hidden layer ,
+the learning rate, the epochs for the training and if the user want to use the GPU for the training and testing.
 
 example command line: python train.py --arch vgg16 --hidden_layer 4096 --learning_rate 0.001 --train_on gpu --epochs 12 
 
